@@ -4,14 +4,14 @@ const config = {
   siteTitleAlt: "Gleans", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
   siteUrl: "https://gleans.me", // Domain of your website without pathPrefix.
-  pathPrefix: "/gleans", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
+  pathPrefix: "/content", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "서로의 지식을 통해 새로운 지식을 얻는 독서모임 Gleans", // Website description used for RSS feeds/meta description tag.
   siteRss: "/rss.xml", // Path to the RSS file.
   siteFBAppID: "1825356251115265", // FB Application ID for using app insights
   siteGATrackingID: "UA-138209670-1", // Tracking code ID for google analytics.
-  disqusShortname: "https://gleans.disqus.com", // Disqus shortname.
-  postDefaultCategoryID: "book", // Default category for posts.
+  disqusShortname: "gleans", // Disqus shortname.
+  postDefaultCategoryID: "Book", // Default category for posts.
   dateFromFormat: "YYYY-MM-DD", // Date format used in the frontmatter.
   dateFormat: "DD/MM/YYYY", // Date format for display.
   userName: "Gleans", // Username to display in the author segment.
